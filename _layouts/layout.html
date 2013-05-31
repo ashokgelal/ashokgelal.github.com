@@ -29,7 +29,7 @@
 <body>
   <section class="sidebar">
     <a href="/">
-      <img src="{{ site.gravatar_url }}?s=150" height="75" width="75" class="avatar" />
+      <img src="/images/avatar.png" height="75" width="75" class="avatar" />
     </a>
 
     <section class="name">
@@ -55,5 +55,18 @@
 
   {{ content }}
 </body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5531338-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </html>
