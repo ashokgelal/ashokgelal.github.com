@@ -3,6 +3,7 @@ author: admin
 comments: false
 date: 2013-05-27 20:27:58+00:00
 layout: post
+comments: true
 slug: browsing-your-android-apps-sqlite-file
 title: Browsing your Android App's SQLite file
 wordpress_id: 852
@@ -71,3 +72,4 @@ The database file should now be copied to your desktop.
 
 
 You can [follow me on Twitter](https://twitter.com/ashokgelal), or [add me on Google+](https://plus.google.com/102672078908622237427/posts).
+    
